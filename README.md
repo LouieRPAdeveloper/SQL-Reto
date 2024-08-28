@@ -2,7 +2,9 @@
 1. En este caso, se importo la tabla del archivo pedidos.xlsx como tabla. Se le llamo tablacorregida, del cual
 ejecutamos los queries correspondientes a la totalidad de los registros y la tabla, tal como se muestra en la
 imagen 1 y 2 respectivamente:
+
 ![image](https://github.com/user-attachments/assets/1e6e6325-1622-4cd7-8915-fcb809af938e)
+
 ![image](https://github.com/user-attachments/assets/f51b3968-09b9-4276-9d82-51767e334978)
 
 OJO: para determinar los tipos de cada columna correspondientes a tablacorregida, pues se tuvo que analizar cada 
