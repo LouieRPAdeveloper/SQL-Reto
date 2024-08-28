@@ -10,6 +10,6 @@ campo para el correcto uso. En este caso, fec_crea no nos permite convertir al f
 por lo que en la insertacion de campos, pues se realizara la modificacion
 
 1.A. Luego se realiza la creacion de una tabla vacia llamada tabla_cliente, del cual tiene las caracteristicas 
-correspondientes igual al tipo de datos correspondiente, en la imagen se le adjunta la query y el resultado: 
+correspondientes igual al tipo de datos correspondiente a tablacorregida, en la imagen se le adjunta la query y el resultado: 
 ![image](https://github.com/user-attachments/assets/1f8240a0-ab25-460a-a2fc-a434deb5710a)
 
