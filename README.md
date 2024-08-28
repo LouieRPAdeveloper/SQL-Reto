@@ -72,7 +72,7 @@ a la ausencia de valores, tal como se realiza en la siguiente query.
 
 
 Luego se renombra la tabla de tabla_pedidos a pedidos, luego se ejecuta COMMIT para guardar los cambios
-
+(PONER IMAGEN)
 
 Por ultimo, se observa la consulta de datos de la insercion correspondiente, tal como se muestra en las imagenes: 
 
