@@ -57,3 +57,27 @@ Imagen 1:Elaboracion Propia
 
 Imagen 1:Elaboracion Propia
 
+1.A. Luego se realiza la creacion de una tabla vacia llamada tabla_pedidos, del cual tiene las caracteristicas 
+correspondientes igual al tipo de datos correspondiente a pedidoscorregido, asociando los tipos de valores de pedidoscorregido 
+a tabla_pedidos (Inciso 1.B) , tal como en la imagen 3 se le adjunta la query y el resultado: 
+
+![image](https://github.com/user-attachments/assets/98e7eef7-5f2a-4489-8a8a-16556a3c8915)
+
+
+2. Luego se realiza la insercion correspondiente a tabla_pedidos. En este caso se usa la opcion nvl para los campos VAL_APE2,
+VAL_NOM2, COD_SEXO; pues en el archivo del excel se observo que hay campos vacios, reemplazando estos campos a NULL debido
+a la ausencia de valores, tal como se realiza en la siguiente query.
+
+![image](https://github.com/user-attachments/assets/14e08ede-9eaa-4150-9cff-06d22a0dc0a5)
+
+
+Luego se renombra la tabla de tabla_pedidos a pedidos, luego se ejecuta COMMIT para guardar los cambios
+
+
+Por ultimo, se observa la consulta de datos de la insercion correspondiente, tal como se muestra en las imagenes: 
+
+![image](https://github.com/user-attachments/assets/d2931b1c-8b41-4f42-81f9-f68b86dcf31e)
+![image](https://github.com/user-attachments/assets/e13e11a1-2baa-47c1-8e88-b61f5fcef12d)
+
+
+
