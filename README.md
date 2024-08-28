@@ -4,9 +4,11 @@ ejecutamos los queries correspondientes a la totalidad de los registros y la tab
 imagen 1 y 2 respectivamente:
 
 ![image](https://github.com/user-attachments/assets/1e6e6325-1622-4cd7-8915-fcb809af938e)
+
 Imagen 1:Elaboracion Propia
 
 ![image](https://github.com/user-attachments/assets/f51b3968-09b9-4276-9d82-51767e334978)
+
 Imagen 2:Elaboracion Propia
 
 OJO: para determinar los tipos de cada columna correspondientes a tablacorregida, pues se tuvo que analizar cada 
@@ -18,6 +20,7 @@ correspondientes igual al tipo de datos correspondiente a tablacorregida, asocia
 a tabla_cliente (Inciso 1.B) , tal como en la imagen 3 se le adjunta la query y el resultado: 
 
 ![image](https://github.com/user-attachments/assets/1f8240a0-ab25-460a-a2fc-a434deb5710a)
+
 Imagen 3:Elaboracion Propia
 
 2. Luego se realiza la insercion correspondiente a tabla_cliente. En este caso se usa la opcion nvl para los campos VAL_APE2,
@@ -31,6 +34,7 @@ Ahora, se realiza la conversion a la cadena modificada, usando TO_TIMESTAMP y el
 (dependiedo si es PM o AM); usando el comando de ejemplo TO_TIMESTAMP(tablacorregida.FEC_CREA,'MM/DD/YYYY HH:MI PM'), especificando puntos en la imagen 4:
 
 ![image](https://github.com/user-attachments/assets/5fcf04c0-cabc-4f14-bbfe-933bdf4b4574)
+
 Imagen 4:Elaboracion Propia
 
 Al obtener los resultados de insercion correctos, pues renombramos a la tabla como clientes y ejecutamos COMMIT para guardar los cambios:
