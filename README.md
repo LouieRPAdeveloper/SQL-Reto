@@ -37,11 +37,21 @@ Ahora, se realiza la conversion a la cadena modificada, usando TO_TIMESTAMP y el
 
 Imagen 4:Elaboracion Propia
 
-Al obtener los resultados de insercion correctos, pues renombramos a la tabla como clientes y ejecutamos COMMIT para guardar los cambios:
+Al obtener los resultados de insercion correctos, pues renombramos a la tabla llamada tablacorregida como clientes y ejecutamos COMMIT para guardar los cambios:
+
+![image](https://github.com/user-attachments/assets/214c0243-4841-4d26-94ae-0dbfdf1c1a41)
+
+Imagen 5: Elaboracion Propia
 
 Luego ejecutamos las siguientes queries para ver la cantidad de filas totales en la tabla clientes y * para ver todos los campos ,generando la insercion correcta
 
+![image](https://github.com/user-attachments/assets/da54043f-9986-4726-8b00-3121d9a5a06c)
 
+Imagen 6: Cantidad de filas totales. Elaboracion Propia
+
+![image](https://github.com/user-attachments/assets/bbb72c02-3cd7-41af-9b75-cae5c6a651ed)
+
+Imagen 7: Cantidad de filas totales. Elaboracion Propia
 
 -PARA LA TABLA PEDIDOS:
 
@@ -51,11 +61,11 @@ imagen 1 y 2 respectivamente:
 
 ![image](https://github.com/user-attachments/assets/dca5eab0-59c6-461b-8a22-5d8d566d2975)
 
-Imagen 1:Elaboracion Propia
+Imagen 8:Elaboracion Propia
 
 ![image](https://github.com/user-attachments/assets/3ddac9e3-ba08-4697-970c-edff6a79dc24)
 
-Imagen 1:Elaboracion Propia
+Imagen 9:Elaboracion Propia
 
 1.A. Luego se realiza la creacion de una tabla vacia llamada tabla_pedidos, del cual tiene las caracteristicas 
 correspondientes igual al tipo de datos correspondiente a pedidoscorregido, asociando los tipos de valores de pedidoscorregido 
@@ -63,6 +73,7 @@ a tabla_pedidos (Inciso 1.B) , tal como en la imagen 3 se le adjunta la query y 
 
 ![image](https://github.com/user-attachments/assets/98e7eef7-5f2a-4489-8a8a-16556a3c8915)
 
+Imagen 10:Elaboracion Propia
 
 2. Luego se realiza la insercion correspondiente a tabla_pedidos. En este caso se usa la opcion nvl para los campos VAL_APE2,
 VAL_NOM2, COD_SEXO; pues en el archivo del excel se observo que hay campos vacios, reemplazando estos campos a NULL debido
@@ -70,14 +81,21 @@ a la ausencia de valores, tal como se realiza en la siguiente query.
 
 ![image](https://github.com/user-attachments/assets/14e08ede-9eaa-4150-9cff-06d22a0dc0a5)
 
+Imagen 11: Elaboracion Propia
 
 Luego se renombra la tabla de tabla_pedidos a pedidos, luego se ejecuta COMMIT para guardar los cambios
-(PONER IMAGEN)
+
+![image](https://github.com/user-attachments/assets/a8ea993b-6dde-4c6a-9fee-7954d4d8130a)
+
+Imagen 12: Elaboracion Propia
 
 Por ultimo, se observa la consulta de datos de la insercion correspondiente, tal como se muestra en las imagenes: 
 
 ![image](https://github.com/user-attachments/assets/d2931b1c-8b41-4f42-81f9-f68b86dcf31e)
+
+Imagen 13: Elaboracion Propia
+
 ![image](https://github.com/user-attachments/assets/e13e11a1-2baa-47c1-8e88-b61f5fcef12d)
 
-
+Imagen 14: Elaboracion Propia
 
