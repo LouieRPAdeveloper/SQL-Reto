@@ -21,7 +21,7 @@ a tabla_cliente (Inciso 1.B) , tal como en la imagen 3 se le adjunta la query y 
 
 ![image](https://github.com/user-attachments/assets/1f8240a0-ab25-460a-a2fc-a434deb5710a)
 
-Imagen 3:Elaboración Propia
+Imagen 3:Elaboracion de la Query de crear tabla_cliente, basado en las caracteristicas de tablacorregida relacionando el tipo de dato en cada campo.Elaboración Propia
 
 2. Luego se realiza la inserción correspondiente a tabla_cliente. En este caso se usa la opción nvl para los campos VAL_APE2,
 VAL_NOM2, COD_SEXO; pues en el archivo del excel se observó que hay campos vacíos, reemplazando estos campos a NULL debido
