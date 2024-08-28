@@ -5,11 +5,11 @@ imagen 1 y 2 respectivamente:
 
 ![image](https://github.com/user-attachments/assets/1e6e6325-1622-4cd7-8915-fcb809af938e)
 
-Imagen 1:Elaboración Propia
+Imagen 1:Resultado de todos los campos correspondientes a la tabla relacionada a clientes.xlsx (tablacorregida). Elaboración Propia
 
 ![image](https://github.com/user-attachments/assets/f51b3968-09b9-4276-9d82-51767e334978)
 
-Imagen 2:Elaboración Propia
+Imagen 2:Resultado de conteo de filas correspondientes a la tabla relacionada a clientes.xlsx (tablacorregida) .Elaboración Propia
 
 OJO: para determinar los tipos de cada columna correspondientes a tablacorregida, pues se tuvo que analizar cada 
 campo para el correcto uso. En este caso, fec_crea no nos permite convertir al formato deseado que es TIMESTAMP, 
@@ -55,7 +55,7 @@ Imagen 7: Cantidad de filas totales. Elaboración Propia
 
 -PARA LA TABLA PEDIDOS:
 
-1. En este caso, se importó la tabla del archivo pedidos.xlsx como tabla. Se le llamo pedidoscorregido, del cual
+1. En este caso, se importó la tabla del archivo pedidos.xlsx como tabla. Se le llamó pedidoscorregido, del cual
 ejecutamos los queries correspondientes a la totalidad de los registros y la tabla, tal como se muestra en la
 imagen 1 y 2 respectivamente:
 
